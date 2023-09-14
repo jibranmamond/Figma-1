@@ -1,0 +1,70 @@
+body * {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1230px;
+}
+
+.row {
+  display: flex;
+}
+.row--sb {
+  justify-content: space-between;
+}
+.row--ai {
+  align-items: center;
+}
+
+.header {
+  align-items: center;
+  height: 52px;
+}
+
+.logo {
+  width: 15%;
+}
+
+.navbar {
+  width: 45%;
+}
+.navbar__list {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+.navbar__list__item :hover {
+  color: #FF5A30;
+}
+.navbar__list__link.active {
+  color: #FF5A30;
+}
+.navbar__list a {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25.6px;
+  text-decoration: none;
+  color: #424551;
+  font-family: sans-serif;
+}
+
+.contact {
+  display: flex;
+  gap: 36px;
+}
+.contact .cta {
+  display: flex;
+  gap: 12px;
+}
+.contact .cta__info b {
+  color: #424551;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: bold;
+}
+.contact .cta__info p {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+}/*# sourceMappingURL=style.css.map */
