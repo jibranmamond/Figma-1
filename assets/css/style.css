@@ -5,6 +5,7 @@ body * {
 
 .container {
   width: 1230px;
+  margin: auto;
 }
 
 .row {
