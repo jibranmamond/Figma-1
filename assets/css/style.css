@@ -127,4 +127,87 @@ body {
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
+}
+
+.ce-5 h2 {
+  text-align: center;
+  font-size: 47px;
+  font-weight: 700;
+  line-height: 59.8px;
+  color: #1E212C;
+}
+
+.tab {
+  padding-top: 40px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  width: 201px;
+  height: 46px;
+  border: none;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: transparent;
+  color: #9A9CA5;
+}
+
+/* Change background color of buttons on hover */
+/* Create an active/current tablink class */
+.tab button.active {
+  border: 1px solid #FF5A30;
+  color: #FF5A30;
+  border-radius: 4px;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  position: relative;
+}
+
+.client-comment {
+  position: absolute;
+  left: 700px;
+  top: 450px;
+  width: 544px;
+  height: 236px;
+  background-color: #fff;
+}
+
+.client-comment-2 {
+  position: absolute;
+  left: 15%;
+  top: 20%;
+  width: 448px;
+  height: 156px;
+}
+.client-comment-2 .p-1 {
+  display: inline;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #1E212C;
+}
+.client-comment-2 .comment {
+  display: flex;
+  width: 343px;
+  height: 72px;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+}
+.client-comment-2 .comment__info b {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25.6px;
+  color: #1E212C;
+}
+.client-comment-2 .comment__info p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #787A80;
 }/*# sourceMappingURL=style.css.map */
