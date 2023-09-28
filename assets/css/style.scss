@@ -1,6 +1,5 @@
 body {
-    background-color:
-        #F4F5F6;
+ 
     font-family: sans-serif;
 
 }
@@ -42,6 +41,8 @@ body {
     background-repeat: no-repeat;
     background-position: right top;
     padding-top: 20px;
+    background-color:
+    #F4F5F6;
 
 }
 
@@ -159,6 +160,7 @@ body {
 }
 
 .ce-5 {
+    margin-top: 100px;
 
     h2 {
         text-align: center;
@@ -189,14 +191,17 @@ body {
 }
 
 /* Change background color of buttons on hover */
-.tab button:hover {}
+.tab button:hover {
+    border: 1px solid #FF5A30;
+    color: #FF5A30;
+    border-radius: 4px; 
+}
 
 /* Create an active/current tablink class */
 .tab button.active {
     border: 1px solid #FF5A30;
     color: #FF5A30;
     border-radius: 4px;
-
 }
 
 /* Style the tab content */

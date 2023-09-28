@@ -11,3 +11,4 @@ function openPage(evt, Apartments) {
     document.getElementById(Apartments).style.display = "block";
     evt.currentTarget.className += " active";
 }
+document.body.addEventListener( openPage(event, 'Apartments'));
